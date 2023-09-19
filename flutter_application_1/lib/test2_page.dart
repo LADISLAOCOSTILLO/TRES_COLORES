@@ -13,10 +13,8 @@ class _Test2PageState extends State<Test2Page> {
   double valueRedSlider = 0;
   double valueGreenSlider=0;
   double valueBlueSlider=0;
+  
  
- 
-
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -48,9 +46,6 @@ class _Test2PageState extends State<Test2Page> {
                   
 ),
 
-
-
-
               ),
              
               ),
@@ -72,7 +67,8 @@ class _Test2PageState extends State<Test2Page> {
                   print(value);
                   setState(() {});
                 }),
-            CheckboxListTile(
+                
+            CheckboxListTile(// check
                 title: Text("Description justify"),
                 subtitle: Text("Justificar la descripción"),
                 value: isDescriptionJustify,
@@ -81,6 +77,7 @@ class _Test2PageState extends State<Test2Page> {
                   print(value);
                   setState(() {});
                 }),
+              
             Slider(
               min: 0,
               max: 255,

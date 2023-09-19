@@ -9,12 +9,12 @@ class Test1Page extends StatefulWidget {
 
 class _Test1PageState extends State<Test1Page> {
   List<Map<String, dynamic>> data = [
-    {'id': 1, 'nombre': 'Auto modelo 1', 'image': 'assets/images/image1.jpg'},
-    {'id': 2, 'nombre': 'Auto modelo 2', 'image': 'assets/images/image2.jpg'},
-    {'id': 3, 'nombre': 'Auto modelo 3', 'image': 'assets/images/image3.jpg'},
-    {'id': 4, 'nombre': 'Auto modelo 4', 'image': 'assets/images/image4.jpg'},
-    {'id': 5, 'nombre': 'Auto modelo 5', 'image': 'assets/images/image5.jpg'},
-    {'id': 6, 'nombre': 'Auto modelo 6', 'image': 'assets/images/image6.jpg'},
+    {'id': 1, 'nombre': 'Auto modelo 1', 'image': 'assets/image/01.jpg'},
+    {'id': 2, 'nombre': 'Auto modelo 2', 'image': 'assets/image/02.jpg'},
+    {'id': 3, 'nombre': 'Auto modelo 3', 'image': 'assets/image/03.jpg'},
+    {'id': 4, 'nombre': 'Auto modelo 4', 'image': 'assets/image/04.jpg'},
+    {'id': 5, 'nombre': 'Auto modelo 5', 'image': 'assets/image/05.jpg'},
+    {'id': 6, 'nombre': 'Auto modelo 6', 'image': 'assets/image/06.jpg'},
   ];
 
   int index = 0;
